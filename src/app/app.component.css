@@ -1,0 +1,22 @@
+.heading{
+    width: 76%;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 50px;
+    margin-left: 40px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav
+{
+    margin-top: 50px;  
+    margin-bottom: 27px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}

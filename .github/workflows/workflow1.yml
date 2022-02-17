@@ -1,0 +1,12 @@
+name : NPM COMMANDS
+
+on : [push,pull_request]
+
+jobs:
+  run-ng-command:
+     runs-on: ubuntu-latest
+     steps: 
+        - name : echo Test starting
+          run : echo "Test starting"
+        - name : Run unit tests
+          run: ng test  
